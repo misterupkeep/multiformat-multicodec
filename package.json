@@ -13,6 +13,11 @@
       "default": "./dist/index.mjs"
     }
   },
+  "files": [
+    "src",
+    "dist",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "microbundle --compress=false"
   },
@@ -26,6 +31,10 @@
   ],
   "author": "Upkeep",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:misterupkeep/multiformat-multicodec.git"
+  },
   "devDependencies": {
     "microbundle": "^0.15.1",
     "typescript": "^4.7.4"
